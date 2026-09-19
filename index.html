@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thư viện ảnh tương tác</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="image">
+        Di chuột qua một hình ảnh bên dưới để hiển thị ở đây.
+    </div>
+
+    <div class="preview-container">
+        <img class="preview" 
+             alt="Phong cảnh núi rừng xanh mát" 
+             src="https://picsum.photos/id/1018/600/400" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()">
+
+        <img class="preview" 
+             alt="Bờ biển hoàng hôn rực rỡ" 
+             src="https://picsum.photos/id/1015/600/400" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()">
+
+        <img class="preview" 
+             alt="Con đường mùa thu lá vàng" 
+             src="https://picsum.photos/id/1025/600/400" 
+             onmouseover="upDate(this)" 
+             onmouseleave="unDo()">
+    </div>
+</body>
+</html>
